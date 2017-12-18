@@ -418,6 +418,7 @@
 					include,
 					"$(LLVM_HEADER_DIR)",
 				);
+				INSTALL_PATH = "@rpath";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -482,6 +483,7 @@
 					include,
 					"$(LLVM_HEADER_DIR)",
 				);
+				INSTALL_PATH = "@rpath";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
