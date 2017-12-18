@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FD737EC1FE76A78002DDAEC /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737D41FE76A78002DDAEC /* Version.h */; };
+		1FD737ED1FE76A78002DDAEC /* ArchitectureSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737D61FE76A78002DDAEC /* ArchitectureSupport.h */; };
+		1FD737EE1FE76A78002DDAEC /* Symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737D71FE76A78002DDAEC /* Symbol.h */; };
+		1FD737EF1FE76A78002DDAEC /* STLExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737D81FE76A78002DDAEC /* STLExtras.h */; };
+		1FD737F01FE76A78002DDAEC /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737D91FE76A78002DDAEC /* File.h */; };
+		1FD737F11FE76A78002DDAEC /* Registry.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737DA1FE76A78002DDAEC /* Registry.h */; };
+		1FD737F21FE76A78002DDAEC /* LLVM.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737DB1FE76A78002DDAEC /* LLVM.h */; };
+		1FD737F31FE76A78002DDAEC /* InterfaceFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737DC1FE76A78002DDAEC /* InterfaceFile.h */; };
+		1FD737F41FE76A78002DDAEC /* MachODylibReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737DD1FE76A78002DDAEC /* MachODylibReader.h */; };
+		1FD737F51FE76A78002DDAEC /* TextStub_v1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737DE1FE76A78002DDAEC /* TextStub_v1.h */; };
+		1FD737F61FE76A78002DDAEC /* YAML.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737DF1FE76A78002DDAEC /* YAML.h */; };
+		1FD737F71FE76A78002DDAEC /* TextStub_v2.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737E01FE76A78002DDAEC /* TextStub_v2.h */; };
+		1FD737F81FE76A78002DDAEC /* YAMLReaderWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737E11FE76A78002DDAEC /* YAMLReaderWriter.h */; };
+		1FD737F91FE76A78002DDAEC /* APIVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737E21FE76A78002DDAEC /* APIVersion.h */; };
+		1FD737FA1FE76A78002DDAEC /* Symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737E31FE76A78002DDAEC /* Symbol.h */; };
+		1FD737FB1FE76A78002DDAEC /* VersionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737E51FE76A78002DDAEC /* VersionConfig.h */; };
+		1FD737FC1FE76A78002DDAEC /* tapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737E61FE76A78002DDAEC /* tapi.h */; };
+		1FD737FD1FE76A78002DDAEC /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737E71FE76A78002DDAEC /* Defines.h */; };
+		1FD737FE1FE76A78002DDAEC /* LinkerInterfaceFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737E91FE76A78002DDAEC /* LinkerInterfaceFile.h */; };
+		1FD737FF1FE76A78002DDAEC /* PackedVersion32.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD737EA1FE76A78002DDAEC /* PackedVersion32.h */; };
+		1FD738171FE76C49002DDAEC /* InterfaceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD738051FE76C49002DDAEC /* InterfaceFile.cpp */; };
+		1FD738181FE76C49002DDAEC /* Symbol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD738061FE76C49002DDAEC /* Symbol.cpp */; };
+		1FD738191FE76C49002DDAEC /* MachODylibReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD738081FE76C49002DDAEC /* MachODylibReader.cpp */; };
+		1FD7381A1FE76C49002DDAEC /* YAMLReaderWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD738091FE76C49002DDAEC /* YAMLReaderWriter.cpp */; };
+		1FD7381B1FE76C49002DDAEC /* Registry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7380A1FE76C49002DDAEC /* Registry.cpp */; };
+		1FD7381C1FE76C4A002DDAEC /* ArchitectureSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7380B1FE76C49002DDAEC /* ArchitectureSupport.cpp */; };
+		1FD7381D1FE76C4A002DDAEC /* TextStub_v2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7380C1FE76C49002DDAEC /* TextStub_v2.cpp */; };
+		1FD7381E1FE76C4A002DDAEC /* TextStub_v1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7380D1FE76C49002DDAEC /* TextStub_v1.cpp */; };
+		1FD7381F1FE76C4A002DDAEC /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD738101FE76C49002DDAEC /* Version.cpp */; };
+		1FD738201FE76C4A002DDAEC /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD738141FE76C49002DDAEC /* Version.cpp */; };
+		1FD738211FE76C4A002DDAEC /* APIVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD738151FE76C49002DDAEC /* APIVersion.cpp */; };
+		1FD738221FE76C4A002DDAEC /* LinkerInterfaceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD738161FE76C49002DDAEC /* LinkerInterfaceFile.cpp */; };
+		1FD738261FE7706F002DDAEC /* libtermcap.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD738251FE7706F002DDAEC /* libtermcap.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FD737C81FE769F2002DDAEC /* libtapi.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtapi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD737D41FE76A78002DDAEC /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
+		1FD737D61FE76A78002DDAEC /* ArchitectureSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchitectureSupport.h; sourceTree = "<group>"; };
+		1FD737D71FE76A78002DDAEC /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		1FD737D81FE76A78002DDAEC /* STLExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLExtras.h; sourceTree = "<group>"; };
+		1FD737D91FE76A78002DDAEC /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		1FD737DA1FE76A78002DDAEC /* Registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registry.h; sourceTree = "<group>"; };
+		1FD737DB1FE76A78002DDAEC /* LLVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLVM.h; sourceTree = "<group>"; };
+		1FD737DC1FE76A78002DDAEC /* InterfaceFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceFile.h; sourceTree = "<group>"; };
+		1FD737DD1FE76A78002DDAEC /* MachODylibReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachODylibReader.h; sourceTree = "<group>"; };
+		1FD737DE1FE76A78002DDAEC /* TextStub_v1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStub_v1.h; sourceTree = "<group>"; };
+		1FD737DF1FE76A78002DDAEC /* YAML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAML.h; sourceTree = "<group>"; };
+		1FD737E01FE76A78002DDAEC /* TextStub_v2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStub_v2.h; sourceTree = "<group>"; };
+		1FD737E11FE76A78002DDAEC /* YAMLReaderWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMLReaderWriter.h; sourceTree = "<group>"; };
+		1FD737E21FE76A78002DDAEC /* APIVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIVersion.h; sourceTree = "<group>"; };
+		1FD737E31FE76A78002DDAEC /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		1FD737E51FE76A78002DDAEC /* VersionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionConfig.h; sourceTree = "<group>"; };
+		1FD737E61FE76A78002DDAEC /* tapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tapi.h; sourceTree = "<group>"; };
+		1FD737E71FE76A78002DDAEC /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		1FD737E81FE76A78002DDAEC /* Version.inc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Version.inc.in; sourceTree = "<group>"; };
+		1FD737E91FE76A78002DDAEC /* LinkerInterfaceFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkerInterfaceFile.h; sourceTree = "<group>"; };
+		1FD737EA1FE76A78002DDAEC /* PackedVersion32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackedVersion32.h; sourceTree = "<group>"; };
+		1FD738011FE76B4E002DDAEC /* make-version.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "make-version.sh"; sourceTree = "<group>"; };
+		1FD738051FE76C49002DDAEC /* InterfaceFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterfaceFile.cpp; sourceTree = "<group>"; };
+		1FD738061FE76C49002DDAEC /* Symbol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Symbol.cpp; sourceTree = "<group>"; };
+		1FD738081FE76C49002DDAEC /* MachODylibReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MachODylibReader.cpp; sourceTree = "<group>"; };
+		1FD738091FE76C49002DDAEC /* YAMLReaderWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YAMLReaderWriter.cpp; sourceTree = "<group>"; };
+		1FD7380A1FE76C49002DDAEC /* Registry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Registry.cpp; sourceTree = "<group>"; };
+		1FD7380B1FE76C49002DDAEC /* ArchitectureSupport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArchitectureSupport.cpp; sourceTree = "<group>"; };
+		1FD7380C1FE76C49002DDAEC /* TextStub_v2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextStub_v2.cpp; sourceTree = "<group>"; };
+		1FD7380D1FE76C49002DDAEC /* TextStub_v1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextStub_v1.cpp; sourceTree = "<group>"; };
+		1FD738101FE76C49002DDAEC /* Version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Version.cpp; sourceTree = "<group>"; };
+		1FD738141FE76C49002DDAEC /* Version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Version.cpp; sourceTree = "<group>"; };
+		1FD738151FE76C49002DDAEC /* APIVersion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = APIVersion.cpp; sourceTree = "<group>"; };
+		1FD738161FE76C49002DDAEC /* LinkerInterfaceFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkerInterfaceFile.cpp; sourceTree = "<group>"; };
+		1FD738231FE76C77002DDAEC /* libtapi.exports */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libtapi.exports; sourceTree = "<group>"; };
+		1FD738251FE7706F002DDAEC /* libtermcap.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libtermcap.tbd; path = usr/lib/libtermcap.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD737C51FE769F2002DDAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD738261FE7706F002DDAEC /* libtermcap.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FD737BD1FE769BB002DDAEC = {
+			isa = PBXGroup;
+			children = (
+				1FD737D21FE76A78002DDAEC /* include */,
+				1FD738031FE76C49002DDAEC /* lib */,
+				1FD738001FE76B4E002DDAEC /* tools */,
+				1FD738241FE7706F002DDAEC /* Frameworks */,
+				1FD737C91FE769F2002DDAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FD737C91FE769F2002DDAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD737C81FE769F2002DDAEC /* libtapi.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD737D21FE76A78002DDAEC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1FD737D31FE76A78002DDAEC /* tapi */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1FD737D31FE76A78002DDAEC /* tapi */ = {
+			isa = PBXGroup;
+			children = (
+				1FD737E41FE76A78002DDAEC /* Config */,
+				1FD737D51FE76A78002DDAEC /* Core */,
+				1FD737E21FE76A78002DDAEC /* APIVersion.h */,
+				1FD737E71FE76A78002DDAEC /* Defines.h */,
+				1FD737E91FE76A78002DDAEC /* LinkerInterfaceFile.h */,
+				1FD737EA1FE76A78002DDAEC /* PackedVersion32.h */,
+				1FD737E31FE76A78002DDAEC /* Symbol.h */,
+				1FD737D41FE76A78002DDAEC /* Version.h */,
+				1FD737E81FE76A78002DDAEC /* Version.inc.in */,
+				1FD737E61FE76A78002DDAEC /* tapi.h */,
+			);
+			path = tapi;
+			sourceTree = "<group>";
+		};
+		1FD737D51FE76A78002DDAEC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1FD737D61FE76A78002DDAEC /* ArchitectureSupport.h */,
+				1FD737D71FE76A78002DDAEC /* Symbol.h */,
+				1FD737D81FE76A78002DDAEC /* STLExtras.h */,
+				1FD737D91FE76A78002DDAEC /* File.h */,
+				1FD737DA1FE76A78002DDAEC /* Registry.h */,
+				1FD737DB1FE76A78002DDAEC /* LLVM.h */,
+				1FD737DC1FE76A78002DDAEC /* InterfaceFile.h */,
+				1FD737DD1FE76A78002DDAEC /* MachODylibReader.h */,
+				1FD737DE1FE76A78002DDAEC /* TextStub_v1.h */,
+				1FD737DF1FE76A78002DDAEC /* YAML.h */,
+				1FD737E01FE76A78002DDAEC /* TextStub_v2.h */,
+				1FD737E11FE76A78002DDAEC /* YAMLReaderWriter.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1FD737E41FE76A78002DDAEC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1FD737E51FE76A78002DDAEC /* VersionConfig.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1FD738001FE76B4E002DDAEC /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				1FD738231FE76C77002DDAEC /* libtapi.exports */,
+				1FD738011FE76B4E002DDAEC /* make-version.sh */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		1FD738031FE76C49002DDAEC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1FD738041FE76C49002DDAEC /* Core */,
+				1FD7380E1FE76C49002DDAEC /* Config */,
+				1FD738151FE76C49002DDAEC /* APIVersion.cpp */,
+				1FD738161FE76C49002DDAEC /* LinkerInterfaceFile.cpp */,
+				1FD738141FE76C49002DDAEC /* Version.cpp */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1FD738041FE76C49002DDAEC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1FD738051FE76C49002DDAEC /* InterfaceFile.cpp */,
+				1FD738061FE76C49002DDAEC /* Symbol.cpp */,
+				1FD738081FE76C49002DDAEC /* MachODylibReader.cpp */,
+				1FD738091FE76C49002DDAEC /* YAMLReaderWriter.cpp */,
+				1FD7380A1FE76C49002DDAEC /* Registry.cpp */,
+				1FD7380B1FE76C49002DDAEC /* ArchitectureSupport.cpp */,
+				1FD7380C1FE76C49002DDAEC /* TextStub_v2.cpp */,
+				1FD7380D1FE76C49002DDAEC /* TextStub_v1.cpp */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1FD7380E1FE76C49002DDAEC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1FD738101FE76C49002DDAEC /* Version.cpp */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1FD738241FE7706F002DDAEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FD738251FE7706F002DDAEC /* libtermcap.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FD737C61FE769F2002DDAEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD737F01FE76A78002DDAEC /* File.h in Headers */,
+				1FD737FA1FE76A78002DDAEC /* Symbol.h in Headers */,
+				1FD737FF1FE76A78002DDAEC /* PackedVersion32.h in Headers */,
+				1FD737F71FE76A78002DDAEC /* TextStub_v2.h in Headers */,
+				1FD737F11FE76A78002DDAEC /* Registry.h in Headers */,
+				1FD737F61FE76A78002DDAEC /* YAML.h in Headers */,
+				1FD737FD1FE76A78002DDAEC /* Defines.h in Headers */,
+				1FD737FB1FE76A78002DDAEC /* VersionConfig.h in Headers */,
+				1FD737EC1FE76A78002DDAEC /* Version.h in Headers */,
+				1FD737EE1FE76A78002DDAEC /* Symbol.h in Headers */,
+				1FD737F51FE76A78002DDAEC /* TextStub_v1.h in Headers */,
+				1FD737ED1FE76A78002DDAEC /* ArchitectureSupport.h in Headers */,
+				1FD737F81FE76A78002DDAEC /* YAMLReaderWriter.h in Headers */,
+				1FD737F21FE76A78002DDAEC /* LLVM.h in Headers */,
+				1FD737FC1FE76A78002DDAEC /* tapi.h in Headers */,
+				1FD737F31FE76A78002DDAEC /* InterfaceFile.h in Headers */,
+				1FD737F41FE76A78002DDAEC /* MachODylibReader.h in Headers */,
+				1FD737F91FE76A78002DDAEC /* APIVersion.h in Headers */,
+				1FD737FE1FE76A78002DDAEC /* LinkerInterfaceFile.h in Headers */,
+				1FD737EF1FE76A78002DDAEC /* STLExtras.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FD737C71FE769F2002DDAEC /* tapi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD737CF1FE769F2002DDAEC /* Build configuration list for PBXNativeTarget "tapi" */;
+			buildPhases = (
+				1FD738021FE76C24002DDAEC /* Create Version.inc */,
+				1FD737C41FE769F2002DDAEC /* Sources */,
+				1FD737C51FE769F2002DDAEC /* Frameworks */,
+				1FD737C61FE769F2002DDAEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tapi;
+			productName = tapi;
+			productReference = 1FD737C81FE769F2002DDAEC /* libtapi.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FD737BE1FE769BB002DDAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "PureDarwin Project";
+				TargetAttributes = {
+					1FD737C71FE769F2002DDAEC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1FD737C11FE769BB002DDAEC /* Build configuration list for PBXProject "tapi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FD737BD1FE769BB002DDAEC;
+			productRefGroup = 1FD737C91FE769F2002DDAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD737C71FE769F2002DDAEC /* tapi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD738021FE76C24002DDAEC /* Create Version.inc */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/include/tapi/Version.inc.in",
+			);
+			name = "Create Version.inc";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/tapi/Version.inc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". \"${SRCROOT}/tools/make-version.sh\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD737C41FE769F2002DDAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD7381C1FE76C4A002DDAEC /* ArchitectureSupport.cpp in Sources */,
+				1FD7381E1FE76C4A002DDAEC /* TextStub_v1.cpp in Sources */,
+				1FD7381A1FE76C49002DDAEC /* YAMLReaderWriter.cpp in Sources */,
+				1FD738171FE76C49002DDAEC /* InterfaceFile.cpp in Sources */,
+				1FD738211FE76C4A002DDAEC /* APIVersion.cpp in Sources */,
+				1FD738181FE76C49002DDAEC /* Symbol.cpp in Sources */,
+				1FD7381D1FE76C4A002DDAEC /* TextStub_v2.cpp in Sources */,
+				1FD738201FE76C4A002DDAEC /* Version.cpp in Sources */,
+				1FD7381B1FE76C49002DDAEC /* Registry.cpp in Sources */,
+				1FD738191FE76C49002DDAEC /* MachODylibReader.cpp in Sources */,
+				1FD738221FE76C4A002DDAEC /* LinkerInterfaceFile.cpp in Sources */,
+				1FD7381F1FE76C4A002DDAEC /* Version.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FD737C21FE769BB002DDAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LLVM_HEADER_DIR = /usr/local/opt/llvm/include;
+				LLVM_LIBRARY_DIR = /usr/local/opt/llvm/lib;
+				TAPI_VERSION_MAJOR = 1;
+				TAPI_VERSION_MINOR = 13;
+				TAPI_VERSION_PATCH = 0;
+			};
+			name = Debug;
+		};
+		1FD737C31FE769BB002DDAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LLVM_HEADER_DIR = /usr/local/opt/llvm/include;
+				LLVM_LIBRARY_DIR = /usr/local/opt/llvm/lib;
+				TAPI_VERSION_MAJOR = 1;
+				TAPI_VERSION_MINOR = 13;
+				TAPI_VERSION_PATCH = 0;
+			};
+			name = Release;
+		};
+		1FD737D01FE769F2002DDAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3P242C9ES5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(TAPI_VERSION_MAJOR).$(TAPI_VERSION_MINOR).$(TAPI_VERSION_PATCH)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXPORTED_SYMBOLS_FILE = tools/libtapi.exports;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					include,
+					"$(LLVM_HEADER_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(REQUIRED_LLVM_LIBRARIES)",
+					"-Wl,-allowable_client,ld",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REQUIRED_LLVM_LIBRARIES = "$(LLVM_LIBRARY_DIR)/libLLVMSupport.a $(LLVM_LIBRARY_DIR)/libLLVMObject.a $(LLVM_LIBRARY_DIR)/libLLVMMC.a $(LLVM_LIBRARY_DIR)/libLLVMObject.a $(LLVM_LIBRARY_DIR)/libLLVMMCParser.a $(LLVM_LIBRARY_DIR)/libLLVMCore.a $(LLVM_LIBRARY_DIR)/libLLVMBinaryFormat.a $(LLVM_LIBRARY_DIR)/libLLVMBitReader.a $(LLVM_LIBRARY_DIR)/libLLVMDemangle.a";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FD737D11FE769F2002DDAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3P242C9ES5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(TAPI_VERSION_MAJOR).$(TAPI_VERSION_MINOR).$(TAPI_VERSION_PATCH)";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXPORTED_SYMBOLS_FILE = tools/libtapi.exports;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					include,
+					"$(LLVM_HEADER_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(REQUIRED_LLVM_LIBRARIES)",
+					"-Wl,-allowable_client,ld",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REQUIRED_LLVM_LIBRARIES = "$(LLVM_LIBRARY_DIR)/libLLVMSupport.a $(LLVM_LIBRARY_DIR)/libLLVMObject.a $(LLVM_LIBRARY_DIR)/libLLVMMC.a $(LLVM_LIBRARY_DIR)/libLLVMObject.a $(LLVM_LIBRARY_DIR)/libLLVMMCParser.a $(LLVM_LIBRARY_DIR)/libLLVMCore.a $(LLVM_LIBRARY_DIR)/libLLVMBinaryFormat.a $(LLVM_LIBRARY_DIR)/libLLVMBitReader.a $(LLVM_LIBRARY_DIR)/libLLVMDemangle.a";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FD737C11FE769BB002DDAEC /* Build configuration list for PBXProject "tapi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD737C21FE769BB002DDAEC /* Debug */,
+				1FD737C31FE769BB002DDAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD737CF1FE769F2002DDAEC /* Build configuration list for PBXNativeTarget "tapi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD737D01FE769F2002DDAEC /* Debug */,
+				1FD737D11FE769F2002DDAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FD737BE1FE769BB002DDAEC /* Project object */;
+}
